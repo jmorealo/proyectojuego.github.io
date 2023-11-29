@@ -1,0 +1,37 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width ,initial-scale =1.0">
+        <title>Juego del ahorcado</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <div class = "cuadrado">
+            <h1>Adivina la palabra o defrauda al Nano</h1>
+            <div id="palabra"></div>
+            <h2>Te quedan <span id="numIntentos">3</span> intentos</h2>
+            <input type="text" id="inputLetra" placeholder="Ingresa una letra">
+            <button onclick="verificarLetra()">Adivinar</button>
+            <h3>Te quedan<span id="longitudpalabra">x</span>letras por adivinar.</h3>
+
+           
+            <div id="imagenes">
+                <img id="victoria" src="https://imgs.search.brave.com/ZowhjRhjgjO4VWaFlykgzn7DuBxRAw5MwkA3pCRASYc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZW5lcy4yMG1pbnV0/b3MuZXMvZmlsZXMv/aW1hZ2VfOTkwX3Yz/L3VwbG9hZHMvaW1h/Z2VuZXMvMjAyMy8w/My8wNi82NDA1YjM3/YWMxNzQ0LmpwZWc" alt="Victoria" style="display: none;">
+                <img id="derrota" src="https://imgs.search.brave.com/aMJ3-_RFAW7Gw-jkYsyeP_Veh0zfXTUYIR7z8aZVNSU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dGhlYmVzdGYxLmVz/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIx/LzA4L2Zlcm5hbmRv/LWFsb25zby1mZXJy/YXJpLWJyYXNpbC0y/MDEyLTc1MHgzNTQu/anBn" alt="Derrota" style="display: none;">
+            </div>
+
+        
+        <button onclick="redirigirInicio()">Volver al inicio</button> 
+        <script>
+            function redirigirInicio() {
+                window.location.href = "indiex.inicio.html";  // Con esta funcion me permite volver al menu de inicio cuando pulso el botón
+            }
+            
+        </script>
+
+        <script src="script2.js"></script> 
+    
+        
+        <body>
+</html>

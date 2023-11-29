@@ -1,0 +1,52 @@
+body {
+   font-family: Arial, Helvetica, sans-serif; 
+   background-color: whitesmoke;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80%;
+}
+
+.cuadrado{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px color(srgb 0 0 0)
+}
+
+#palabra{
+    font-size: 24px;
+    margin: 20px;
+}
+
+#intentos{
+    font-size: 20px;
+    margin: 20px;
+}
+
+#longitudpalabra{
+    font-size: 20px;
+    margin: 20px;
+}
+
+input[type = "text"]{
+    padding: 10px;
+    font-size: 16px;
+}
+
+button{
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: lawngreen;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: lawngreen;
+}
